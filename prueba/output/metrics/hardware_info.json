@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-04-22T01:41:04.273994+00:00",
+  "os": {
+    "system": "Darwin",
+    "release": "25.0.0",
+    "version": "Darwin Kernel Version 25.0.0: Wed Sep 17 21:41:39 PDT 2025; root:xnu-12377.1.9~141/RELEASE_ARM64_T8103",
+    "machine": "x86_64",
+    "hostname": "MacBook-Air-de-Adolfo-2.local"
+  },
+  "cpu": {
+    "logical_cores": 8,
+    "model": "Apple M1",
+    "physical_cores": 8
+  },
+  "ram_gb": 8.0,
+  "gpu": null,
+  "disk": {
+    "total_gb": 460.4,
+    "free_gb": 226.4,
+    "used_percent": 50.8
+  },
+  "software": {
+    "python": "3.11.7",
+    "java": "openjdk version \"17.0.18\" 2026-01-20",
+    "spark_binary": "version 3.5.4",
+    "pyspark_pip": "3.5.4",
+    "kafka": "4.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+# Proyecto Final — Arquitectura de Grandes Volúmenes de Datos (ITAM, 2026)
+# Instalar con: pip install -r requirements.txt
+
+# PySpark — debe coincidir con la versión del binario de Spark instalado
+pyspark==3.5.4
+
+# Cliente Kafka para el producer (WebSocket → Kafka)
+kafka-python==2.0.2
+
+# WebSocket client para conectarse a Binance
+websocket-client==1.8.0
+
+# Requests para la captura de métricas de Spark UI (API REST)
+requests==2.32.3
