@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Spark
+checkpoints/
+*.crc
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Output (regenerable)
+output/statistics/_accumulating/
+output/labeled_data/_accumulating_features/
+
+# Models (regenerable)
+models/kmeans_model/
+models/logistic_model/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+.venv/
+venv/
+
+# Ivy cache (Spark Maven downloads)
+.ivy2/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PDF (regenerable)
+informe_preliminar.pdf
