@@ -14,12 +14,12 @@ derby.log
 spark-warehouse/
 
 # Output (regenerable)
-output/statistics/_accumulating/
-output/labeled_data/_accumulating_features/
+output/
+output_linux_cpu/
+output_linux_gpu/
 
 # Models (regenerable)
-models/kmeans_model/
-models/logistic_model/
+models/
 
 # IDE
 .vscode/

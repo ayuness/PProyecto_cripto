@@ -71,7 +71,7 @@ logger = logging.getLogger("spark_streaming")
 # Duración de la fase de acumulación en segundos.
 # 5 minutos da suficientes datos (~15,000-60,000 trades dependiendo del
 # volumen del mercado) para que K-Means tenga ventanas significativas.
-ACCUMULATION_SECONDS = 1200
+ACCUMULATION_SECONDS = 600
 
 # Tamaño de la ventana de tiempo para estadísticos y features.
 # 1 minuto es un balance: suficientes trades por ventana para que los
